@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    background-color: #D98E04;
+    background-color: #c7447d;
 }
 
 img {
@@ -17,11 +17,54 @@ a:hover {
    text-decoration: underline;
 }
 
+/* Main Content  */
+
+main {padding: 10px;
+}
+
+main h1, main h2, main h3 {
+    text-align: center;
+    color: #000000;
+}
+
+.multi_col {
+    display: block;
+}
+
+section,aside {
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #0aabf0;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+}
+section img {
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #0aabf0;
+}
+
+hr {
+    border: 1px solid #0aabf0;
+}
+
+/* Types & Ideas */
+
+
+
+
 /* Mobile Styles */
 
-.container {
+#container {
     padding: 4px;
-    border: 2px solid #0aabf0;
+    border: 2px solid #f0b30a;
 }
 nav { 
     text-align: center;
@@ -38,7 +81,7 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #c7447d;
+    background-color: #f0b30a;
     height: 40px;
     line-height: 40px;
     text-decoration: none;
@@ -112,14 +155,21 @@ main{
 
  @media (min-width: 1024px) {
 
-    .container {
+    #container {
     width: 65%;
     margin: 20px auto;
     background-color: #70a537;
  }
 
+ .main_content {
+    width: 90%;
+    margin: 20px auto;
+ }
+
  .about {
     display: flex;
+    width: 90%;
+    margin 20px auto;
  }
 
  .col {
@@ -127,6 +177,7 @@ main{
     margin: 10px;
     padding: 10px;
     border-radius: 10px; 
+    width:45%
  }
 
  .col img{
@@ -145,6 +196,10 @@ main{
 
 .multi_col{
     display: flex;
+}
+
+.about .col:nth-child(2) img {
+    margin-top: 60px;
 }
 
 }
