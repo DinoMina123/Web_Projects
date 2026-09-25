@@ -25,16 +25,16 @@ body {
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 0;
     background-color: #234D35;
 }
 
 header img {
-
-    max-width: 500px;
+    max-width: 100%;
     width: 100%;
     height: auto;
     margin: 0 auto;
+    display: block;
 }
 
 /* Remove extra closing brace */
@@ -45,7 +45,6 @@ nav {
     padding: 10px;
 }
 nav ul {
-    list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -90,16 +89,16 @@ img {
     height: auto;
     display: block;
 }
-/* Hero */
-.hero {
+/* welcome */
+.welcome {
     background-color: #FFFFFF;
     border-radius: 12px;
     overflow: hidden;
 }
-.hero img {
+.welcome img {
     width: 100%;
 }
-.hero_text {
+.welcome .hero_text {
     padding: 20px;
 }
 /* Horizontal Line */
@@ -141,6 +140,30 @@ hr {
 .garden_card a:hover {
     background-color: #234D35;
 }
+
+/* Gardening Tips */
+
+.garden_tips {
+    background-color: #FFFFFF;
+    border: 2px solid #A8C3A0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.garden_tips h2 {
+    margin-top: 0;
+}
+
+.garden_tips ul {
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+.garden_tips li {
+    margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #234D35;
@@ -183,4 +206,18 @@ footer {
     .three_columns {
         gap: 30px;
     }
+}
+
+/* Small Phones */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 15px 10px;
+    }
+
+    header img {
+        width: 300px;
+    }
+
 }
