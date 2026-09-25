@@ -22,12 +22,6 @@ body {
     overflow: hidden;
 }
 /* Header */
-header {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #234D35;
-    color: #FFFFFF;
-}
 
 header img {
 
@@ -37,16 +31,8 @@ header img {
     margin: 0 auto;
 }
 
-header h1 {
-    margin: 0;
-    font-family: "Playfair Display", serif;
-    font-size: 48px;
-}
+/* Remove extra closing brace */
 
-header p {
-    margin: 5px 0 0;
-    font-size: 20px;
-}
 /* Navigation */
 nav {
     background-color: #FFFFFF;
