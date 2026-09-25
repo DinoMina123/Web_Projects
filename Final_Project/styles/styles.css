@@ -1,0 +1,194 @@
+/* 
+   Green Groove
+   Global Styles
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #A8C3A0;
+    color: #26332A;
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+}
+/* Main Container */
+#container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #F7F4EA;
+    border-radius: 15px;
+    overflow: hidden;
+}
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #234D35;
+    color: #FFFFFF;
+}
+
+header img {
+
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+/* Navigation */
+nav {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    display: block;
+    margin: 5px 0;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    color: #234D35;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+nav a:hover {
+    background-color: #A8C3A0;
+}
+/* Main Content */
+main {
+    padding: 20px;
+}
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+    color: #234D35;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 17px;
+}
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* Hero */
+.hero {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.hero img {
+    width: 100%;
+}
+.hero_text {
+    padding: 20px;
+}
+/* Horizontal Line */
+hr {
+    border: 0;
+    border-top: 2px solid #A8C3A0;
+    margin: 30px 0;
+}
+/* Introduction */
+.intro {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+/* Three Columns */
+.three_columns {
+    display: block;
+}
+.garden_card {
+    background-color: #FFFFFF;
+    border: 2px solid #A8C3A0;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+}
+.garden_card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.garden_card a {
+    display: inline-block;
+    background-color: #C76B4A;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.garden_card a:hover {
+    background-color: #234D35;
+}
+/* Footer */
+footer {
+    background-color: #234D35;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+}
+/* Tablet */
+@media (min-width: 768px) {
+    #container {
+        width: 90%;
+    }
+    nav li {
+        display: inline-block;
+        margin: 3px;
+    }
+    nav a {
+        padding: 10px 15px;
+    }
+    .three_columns {
+        display: flex;
+        gap: 20px;
+    }
+    .garden_card {
+        width: 33.33%;
+        margin: 0;
+    }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+    #container {
+        width: 85%;
+    }
+    header h1 {
+        font-size: 60px;
+    }
+    main {
+        padding: 30px;
+    }
+    .three_columns {
+        gap: 30px;
+    }
+}
