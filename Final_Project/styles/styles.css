@@ -23,6 +23,12 @@ body {
 }
 /* Header */
 
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #234D35;
+}
+
 header img {
 
     max-width: 500px;
