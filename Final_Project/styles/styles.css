@@ -68,18 +68,20 @@ nav a:hover {
 main {
     padding: 20px;
 }
-h2,
-h3 {
+h1, h2, h3 {
     font-family: "Playfair Display", serif;
     color: #234D35;
 }
-h2 {
+
+h1 {
     text-align: center;
+    font-size: 36px;
+}
+
+h2,h3 {
     font-size: 32px;
 }
-h3 {
-    font-size: 24px;
-}
+
 p {
     font-size: 17px;
 }
@@ -171,6 +173,68 @@ footer {
     text-align: center;
     padding: 25px;
 }
+
+/* Outdoor Gardening */
+
+.outdoor_intro {
+    text-align: center;
+    padding: 30px;
+}
+
+.outdoor_intro h1 {
+    color: #234D35;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+}
+
+.outdoor_intro p {
+    margin: 10px auto;
+}
+
+/* Plant Care Section */
+.care_section {
+    background-color: #FFFFFF;
+    border: 2px solid #A8C3A0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.care_section h2 {
+    text-align: center;
+}
+
+.care_section img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.care_section h3{
+    margin-top: 5px;
+}
+
+/*Shop Section */
+.shop_items {
+    margin: 0 auto 30px;
+}
+
+.shop_items h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shop_cards {
+    display: block;
+    gap: 15px;
+}
+
+.shop_cards img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
 /* Tablet */
 @media (min-width: 768px) {
     #container {
@@ -191,6 +255,53 @@ footer {
         width: 33.33%;
         margin: 0;
     }
+
+    .indoor_image {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .indoor_image img {
+        width: 50%;
+    }
+
+    .indoor_image div {
+        width: 50%;
+    }
+
+    .indoor_image h2 {
+        margin-top: 0;
+    }
+
+    .plant_box {
+        display: flex;
+        gap: 20px;
+    }
+
+    .plant_box > div {
+        width: 33%;
+        background-color: #FFFFFF;
+        border: 2px solid #A8C3A0;
+        border-radius: 12px;
+        padding: 10px;
+    }
+
+    .plant_box img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .shop_cards {
+    display: flex;
+    gap: 15px;
+    }
+
+    .shop_cards .garden_card {
+    width: 33%;
+    margin: 0;
+    }
+
 }
 /* Desktop */
 @media (min-width: 1024px) {
