@@ -233,7 +233,39 @@ footer {
     border-radius: 8px;
 }
 
+.shop_message {
+    text-align: center;
+    margin: 30px auto;
+}
 
+.shop_video {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.shop_video iframe {
+    display: block;
+    margin: 20px auto;
+    width: 95%;
+    height: 450px;
+}
+
+.visit_store {
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.visit_store h2 {
+    margin-top: 0;
+}
+
+.visit_store iframe {
+    display: block;
+    margin: 20px auto;
+    width: 95%;
+    height: 450px;
+}
 
 /* Tablet */
 @media (min-width: 768px) {
