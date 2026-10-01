@@ -241,14 +241,12 @@ footer {
 
 .shop_video {
     text-align: center;
-    margin: 30px auto;
+    margin: 30px auto;  
 }
 
 .shop_video iframe {
     display: block;
     margin: 20px auto;
-    width: 95%;
-    height: 450px;
 }
 
 .visit_store {
@@ -264,8 +262,6 @@ footer {
 .visit_store iframe {
     display: block;
     margin: 20px auto;
-    width: 95%;
-    height: 450px;
 }
 
 /* Tablet */
